@@ -11,7 +11,7 @@ def home():
 @app.route("/api/hello")
 def hello():
     return jsonify({
-        "message": "Hello from Azure!",
+        "message": "Hello from Azure github!",
         "status": "success"
     })
 
